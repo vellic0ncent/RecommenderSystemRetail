@@ -53,13 +53,13 @@ Common Concept is all the actions made by user on Web site are collicting via We
 #### Storage
 Представим источник с данными. На картинке ниже - уже агрегированный в Google Storage в "buckets"-датасет в виде 100 .csv файлов (количество файлов = количеству потоков при загрузке с GCP):
 
-<img src="./img/gcp.png" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="./img/gcp.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
 
 #### Take a look
 
 Схема данных с сущностями и их типами представлена ниже:
 
-<img src="./img/tableSchema.png" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="./img/tableSchema.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
 
 ### Popularity Based Model
 
@@ -75,7 +75,7 @@ Content-based filtering approaches depends only on the user previous choices, ma
 
 Here we are using a very popular technique in information retrieval (search engines) named TF-IDF. This technique converts unstructured text into a vector structure, where each word is represented by a position in the vector, and the value measures how relevant a given word is for the corpus. As all items will be represented in the same Vector Space Model, it is to compute similarity between corpuses for the users.
 
-<img src="./img/content-about.png" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
+<img src="./img/content-about.jpeg" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
 
 ### Embeddings Neural Network Model
 
@@ -86,7 +86,7 @@ The model that embeds an item into a vector space is called an [encoder](https:/
 
 <img src="./img/embedding-about.png" style="max-width: 100%; margin-left: auto; margin-right: auto;" />
 
-*Source: https://gist.github.com/bsivanantham/15714bfdde68b70fa2b1a5e1fda82fe2 * 
+*Source: https://gist.github.com/bsivanantham/15714bfdde68b70fa2b1a5e1fda82fe2
 
 ### Quality Metrics
 
